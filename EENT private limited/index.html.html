@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/021358633c.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background: linear-gradient(60deg, rgb(235, 234, 234), white);
+        }
+        html,body{
+            overflow-x: hidden;
+        }
+        .container,
+        .container2,
+        .container3 {
+            width: 100%;
+            /* margin: auto; */
+        }
+
+        nav ul li {
+            text-decoration: none;
+            list-style-type: none;
+            margin-right: 20px;
+            font-size: 20px;
+            padding-top: 6px;
+        }
+
+        nav ul li select {
+            border: none;
+            font-size: 17px;
+        }
+
+        nav ul li select option {
+            padding-right: -4px;
+            font-size: 17px;
+        }
+
+        .jj img {
+            height: 103px !important;
+            width: 100px !important;
+
+        }
+
+        .container2,
+        nav {
+            background-color: white;
+            border-radius: 9px;
+            padding: 12px;
+        }
+
+        .first-text::before {
+            content: " ";
+            z-index: -1;
+            opacity: 0.8;
+            position: absolute;
+            border-radius: 10px;
+            width: 245px;
+            height: 220px;
+            background: url('./Images/slice\ apple.jpg') no-repeat center center/cover;
+        }
+
+        .firsttext::before {
+            content: " ";
+            background: url('./Images/singing\ boy.jpg')no-repeat center center/cover;
+            z-index: -1;
+            opacity: 0.8;
+            position: absolute;
+            width: 400px;
+            height: 480px;
+            border-radius: 10px;
+        }
+
+        .firsttext {
+            width: 400px;
+            height: 480px;
+            border-radius: 10px;
+            color: white;
+            font-weight: bolder;
+            margin-left: 48px;
+            margin-top: 26px;
+
+        }
+
+        .cont6::before {
+            width: 245px;
+            height: 220px;
+            background: url('./Images/watch.jpg')no-repeat center center/cover;
+            position: absolute;
+            content: " ";
+            z-index: -1;
+            opacity: 0.8;
+            border-radius: 10px;
+        }
+
+        .cont6 {
+
+            color: white;
+            width: 245px;
+            height: 220px;
+            margin-left: 44px;
+            margin-top: 27px;
+
+        }
+
+        .letter {
+            margin-top: 82px;
+            margin-left: 20px;
+            font-size: 20px;
+        }
+
+        .cont7 {
+            color: white;
+            width: 245px;
+            height: 220px;
+            font-weight: bolder;
+            margin-top: 286px !important;
+            margin-left: -981px !important;
+            border-radius: 10px;
+            background: url('./Images/guvava.jpg')no-repeat center center/cover;
+        }
+
+        .cont8::before {
+            background: url('./Images/car.jpg')no-repeat center center/cover;
+            position: absolute;
+            content: " ";
+            z-index: -1;
+            opacity: 0.8;
+            width: 239px;
+            height: 220px;
+            border-radius: 10px;
+        }
+
+        .fff {
+            padding-top: 107px;
+            padding-left: 43px;
+        }
+
+        .conta2 {
+            background: url(./Images/singing\ boy.jpg)no-repeat center center/cover;
+            color: white;
+            height: 319px;
+            padding: 20px;
+            border-radius: 13px;
+            padding-left: 0px;
+        }
+
+        .cont8 {
+            width: 239px;
+            height: 220px;
+            color: white;
+            border-radius: 10px;
+            margin-top: 286px;
+            margin-left: 496px;
+        }
+
+        @media (min-width:100px) and (max-width:580px) {
+            .container {
+                display: none;
+            }
+        }
+
+        @media (min-width:581px) {
+            .container7 {
+                display: none;
+            }
+        }
+
+        /* .container7 {
+            max-width: 540px;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container" style="margin:0px 20px;width: 998px;
+    margin-left: 40px;">
+
+        <nav style="display: flex;">
+            <img src="./Images/mmn-removebg-preview.png" width="69px" style="height: 68px;
+            width: 70px;">
+            <img src="./Images/atlas_logo.png" alt="logo" style="width: 144px; height:73px; margin-top:-7px;">
+            <ul style="display: flex;">
+                <li>Reviews</li>
+                <li style="border: 1px solid white;">
+                    <select name="" id="">
+                        <option value="">News<i class="fa-solid fa-angle-down"></i></option>
+                        <option value="">...</option>
+                        <option value="">...</option>
+                        <option value="">...</option>
+                        
+                    </select>
+                </li>
+                <li style="border: 1px solid white;">
+                    <select name="" id="">
+                        <option value="">Random</option>
+                        <option value="">...</option>
+                        <option value="">...</option>
+                        <option value="">..</option>
+                    
+                    </select>
+                </li>
+                <li style="border: 1px solid white;">
+                    <select name="" id="">
+                        <option value="">Fashion</option>
+                        <option value="">...</option>
+                        <option value="">...</option>
+                        <option value="">...</option>
+                        
+                    </select>
+                </li>
+            </ul>
+            <i class="fa-solid fa-magnifying-glass" style="    margin-top: 28px;
+            margin-left: 311px;
+            font-size: 22px;"></i>
+        </nav>
+        <div class="container2" style="display: flex; margin-top: 26px;">
+            <div class="cont1 " style="display: flex;">
+                <img src="./Images/pancake.jpg"  alt="pancake" class="jj"
+                    style="border-radius: 50%; margin-left: 0px; width: 100px; height: 103px;">
+                <h3 style="margin-left: 5px; font-size: 17px;     width: 61%;">Americian sweet <br> pancake with honey
+                </h3> <br> <span style="margin-left: -149px;
+                margin-top: 77px;
+                width: 121px;">about a year ago</span>
+            </div>
+            <div class="cont2" style="margin-left: -19px;">
+                <img src="./Images/car.jpg" alt="pancake" class="jj" style="border-radius: 50%; margin-left: 35px; width: 103px;
+                height: 103px;">
+                <h3 style="   margin-left: 141px;
+                margin-top: -102px;
+                font-size: 17px;
+                margin-top: -90px;
+                width: 112px;">How to spend a <br>vacation in <br>maldives</h3> <br> <span style="display: block;   margin-left: 128px;
+    margin-top: -32px;">about a year ago</span>
+            </div>
+            <div class="cont3" style="margin-left: -9px;">
+                <img src="./Images/slice apple.jpg" alt="pancake" class="jj"
+                    style="border-radius: 50%; margin-left: 17px; width: 100px; height: 105px;">
+                <h3 style="    margin-left: 125px;
+                margin-top: -94px;
+                font-size: 17px;">Fashion & style tips <br>Every woman should <br>know</h3> <br> <span style="display: block;    margin-left: 113px;
+    margin-top: -33px;">11 months ago</span>
+            </div>
+            <div class="cont4" style="margin-left: -9px;">
+                <img src="./Images/singing boy.jpg" alt="pancake" class="jj" style="border-radius: 50%; margin-left: 17px;     width: 87px;
+                height: 99px;">
+                <h3 style="margin-left: 109px;
+            margin-top: -87px;">How lovely yellow is!<br>it stand for sun</h3> <br> <span style="display: block;    margin-left: 100px;
+    margin-top: -27px;">about a year ago</span>
+
+            </div>
+        </div>
+        <div class="contaner3" style="display: flex; margin-left: -11px;">
+            <div class="cont4">
+                <div class="first-text" style="color:white;    margin-left: 24px;
+                border-radius: 12px;width: 245px;
+    height: 220px;">
+                    <div class="ff" style="    margin-top: 27px;
+                   padding-top: 79px;
+                   padding-left: 20px;
+                   width: 77px;">
+                        <h3 style="background-color: blueviolet;padding-left: 5px;
+                        border-radius: 4px;">Fashion</h3>
+                    </div>
+                    <p style="padding-left: 20px;
+                    font-weight: bolder;
+                    font-size: 17px;">Fashion & style tips Every <br> woman should know</p>
+                    <p style="margin-left: 20px;
+                    font-size: 15px;
+                    font-weight: bold;">11 months ago</p>
+                </div>
+            </div>
+            <div class="cont5">
+                <div class="firsttext">
+                    <div class="fashion" style="    margin-left: 26px;
+                    margin-top: 23px;
+                    padding-top: 274px;
+                    font-size: 28px;">
+                        <h3 style="background-color: blueviolet;width: 127px;
+                        padding-left: 9px;
+                        border-radius: 7px">Fashion</h3>
+                    </div>
+                    <p style="padding-left: 25px;
+                    font-size: 22px;">How lovely yellow is! it stands for the sun</p>
+                    <p style="    margin-left: 24px;
+                    font-size: 14px;">IW STUDIO- about a year ago</p>
+                </div>
+            </div>
+            <div class="cont6">
+                <div class="letter">
+                    <h3 style="    background-color: orange;
+                    width: 59px;
+                    padding-left: 8px;
+                    border-radius: 5px;">Tech</h3>
+                </div>
+                <p style="font-weight: bolder;
+                font-size: 18px;
+                margin-left: 21px;">For good result must be <br> make good plan</p>
+                <p style="margin-left: 20px;
+                font-size: 15px;
+                font-weight: bold;">about a year ago</p>
+            </div>
+            <div class="cont7" style="margin-top: 309px;
+            margin-left: -879px;">
+                <div class="fs" style="margin-left: 21px;
+                margin-top: 92px;">
+                    <h3 style="background-color: #56ad56;    width: 54px;
+                    padding-left: 6px;
+                    border-radius: 4px;">Food</h3>
+                </div>
+                <p style="margin-left: 20px; font-size: 17px;">Fast is popular <br> because it's convenient</p>
+                <p style="margin-left: 20px;
+                font-size: 13px; font-size: 15px;">about a year ago</p>
+            </div>
+            <div class="cont8" style="font-weight: bolder;">
+                <div class="gf" style="    margin-top: 102px;
+                margin-left: 19px; ">
+                    <h3 style="background-color: red;width: 65px;
+                    padding-left: 8px;
+                    border-radius: 5px;
+                    font-weight: bolder;">Sports</h3>
+                </div>
+                <p style="margin-left: 20px; font-size: 17px;">If you think lifting is <br> dangerous , try being weak
+                </p>
+                <p style="margin-left: 20px;">about a year ago</p>
+            </div>
+        </div>
+    </div>
+    <div class="container7">
+        <nav style="display: flex; justify-content:space-between; width: 100%;">
+            <div class="left " style="display:flex">
+                <img src="./Images/mmn-removebg-preview.png" alt="logo" width="50px" height="50px" style="margin-top:14px;">
+                <img src="./Images/atlas_logo.png" alt="company name" width="150px" height="70px">
+            </div>
+            <div class="right" style="margin-right: 20px;">
+                <i class="fa-solid fa-magnifying-glass" style="margin-top: 27px;
+            font-size: 20px;
+            "></i>
+            </div>
+        </nav>
+        <div class="conta" style="display: flex; align-items: center; height: 62px; margin-top: 20px; background-color:rgb(188, 188, 238); border-radius: 10px;">
+            <img src="./Images/singing boy.jpg" alt="img" style="    width: 43px; border-radius: 50%; height: 42px; margin-left: 7px; margin-top: 9px;">
+            <h3 style="margin-left: 10px;">How lovely yellow is! it stands for the sun</h3>
+        </div>
+        <div class="conta1" style="display: flex; align-items: center;">
+            <div class="img" style="margin-right: 8px">
+                <img src="./Images/pancake.jpg" alt="product img" style="width: 100px; border-radius: 50%;">
+            </div>
+            <div class="text">
+                <h3 style=" font-size: 1.5rem;">American sweet pancake with honey</h3>
+                <p style="font-weight: 100;">About a year ago</p>
+            </div>
+        </div>
+        <div class="conta2">
+            <p style="background-color: #c85cc8fa; font-weight: bold; padding: 5px; width: 35%; text-align: center; margin-left: 15px; border-radius: 5px;">Fashion</p>
+            <h3 style="padding-left: 29px;
+            font-size: 33px;">How lovely yellow is! it <br> stands for the sun</h3>
+            <p style="    padding-left: 29px;">IW STUDIO - about a year ago</p>
+        </div>
+        <div class="conta4" style="display: flex; align-items: center; margin-top: 37px;">
+            <div class="img">
+                <img src="./Images/slice apple.jpg" alt="prduct img" style="width: 100%; border-radius: 23px;">
+            </div>
+            <div class="text" style="margin-left: 10px;">
+                <h3 style="color: #880588; font-size: 20px;">Fashion</h3>
+                <p style="font-size: 18px;">Fashion & Style Tips Every Woman Should Know</p>
+            </div>
+        </div>
+        <div class="conta4" style="display: flex; align-items: center; margin-top: 37px;">
+            <div class="img">
+                <img src="./Images/watch.jpg" alt="prduct img" style="width: 85%; border-radius: 23px;">
+            </div>
+            <div class="text" style="">
+                <h3 style="color: #880588; font-size: 20px;">Tech</h3>
+                <p style="font-size: 18px;">For good results must be make good plan</p>
+            </div>
+        </div>
+        <div class="conta4" style="display: flex; align-items: center; margin-top: 37px;">
+            <div class="img">
+                <img src="./Images/guvava.jpg" alt="prduct img" style="width: 100%; border-radius: 23px;">
+            </div>
+            <div class="text" style="margin-left: 10px;">
+                <h3 style="color: #880588; font-size: 20px;">Food</h3>
+                <p style="font-size: 18px;">Fast food is popular because it's convenient</p>
+            </div>
+        </div>
+        <div class="conta4" style="display: flex; align-items: center; margin-top: 37px;">
+            <div class="img">
+                <img src="./Images/car.jpg" alt="prduct img" style="width: 100%; border-radius: 23px;">
+            </div>
+            <div class="text" style="margin-left: 10px;">
+                <h3 style="color: #880588; font-size: 20px;">Sports</h3>
+                <p style="font-size: 18px;">If you think lifting is dangerous; try being weak</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
